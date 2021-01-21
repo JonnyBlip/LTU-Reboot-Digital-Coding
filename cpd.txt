@@ -1,0 +1,21 @@
+CPD - Continuing Professional Development
+
+Date of CPD activity
+19/01/2021
+
+CPD activity
+Web Development Tools
+
+
+What have I learnt?
+
+I learnt about the different tools used by web developers. Tools such as Visual Studio Code and Github.
+
+How did I use this in practice?
+
+I downloaded and installed Visual Studio Code and Github desktop to my local machine. I created an account on Github and cloned a repository.
+I created a readme.md file for my github profile. I installed an extension "live server" on Visual Studio Code.
+
+What did I find hard?
+
+Working on a mac.
