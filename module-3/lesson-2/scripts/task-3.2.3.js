@@ -1,14 +1,15 @@
-/* EXAMPLE */
-
-function greet(greeting, name) {
-  return greeting + ' ' + name;
+function getFullName(firstName, lastName){
+  let fullName = firstName + ' ' + lastName;
+  return fullName;
 }
 
-var message = greet('Hello', 'Luke');
-    console.log( message ); // Output: Hello Luke
+var fName = 'Imran';
+var lName = 'Mohammed';
 
-/* EXAMPLE */
+var fName2 = 'Safina';
+var lName2 = 'Shan';
 
-// ADD YOUR CODE BELOW HERE
-
-// ADD YOUR CODE ABOVE HERE
+var fullName1 = getFullName(fName, lName);
+console.log (fullName1);
+var fullName2 = getFullName(fName2, lName2);
+console.log (fullName2);
