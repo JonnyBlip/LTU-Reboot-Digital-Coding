@@ -1,3 +1,5 @@
+var temp = 18;
+
 function wearACoat(temperature){
     if(temperature < 10){
         console.log('Wear a coat');
