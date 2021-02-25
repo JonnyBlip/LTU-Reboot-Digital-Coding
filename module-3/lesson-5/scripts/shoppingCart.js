@@ -1,4 +1,4 @@
-let shoppingCart = [
+let arrShoppingCart = [
   {
     name:"loaf of bread",
     type:"food",
@@ -59,3 +59,20 @@ let shoppingCart = [
   quantity:3,
   price:.4
 }];
+
+function getTotalPrice(arrShoppingCart){
+  var total = 0;
+  let itemPrice = 0;
+  for(var counter=0; counter < arrShoppingCart.length; counter++){
+    var objItem = arrShoppingCart[counter]
+    // console.log(objItem);
+    itemPrice = parseFloat(objItem.quantity) * parseFloat(objItem.price);
+    // console.log(itemPrice);
+    total = total + itemPrice;
+    // console.log(total);
+  }
+  return total.toFixed(2);
+}
+
+let cartTotal = getTotalPrice(arrShoppingCart);
+console.log(cartTotal);
